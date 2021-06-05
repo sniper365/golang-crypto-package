@@ -35,7 +35,7 @@ BenchmarkRsaDecrypt-8   	   10000	    210501 ns/op
 BenchmarkHmac-8         	  500000	      2535 ns/op
 BenchmarkChecksum-8     	 3000000	       496 ns/op
 PASS
-ok  	github.com/vdparikh/crypto	13.315s
+ok  	github.com/sniper365/golang-crypto-package	13.315s
 ```
 
 ### Coverage
@@ -43,7 +43,7 @@ ok  	github.com/vdparikh/crypto	13.315s
 go test -cover
 PASS
 coverage: 77.0% of statements
-ok  	github.com/vdparikh/crypto	0.029s
+ok  	github.com/sniper365/golang-crypto-package	0.029s
 ```
 
 ### Usage
@@ -59,7 +59,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/vdparikh/crypto"
+	"github.com/sniper365/golang-crypto-package"
 )
 
 /*
