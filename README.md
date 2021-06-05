@@ -27,7 +27,7 @@ ok  	crypto/crypto	0.029s
 go test -bench=.
 goos: darwin
 goarch: amd64
-pkg: github.com/vdparikh/crypto
+pkg: github.com/sniper365/golang-crypto-package
 BenchmarkAesEncrypt-8   	 1000000	      1948 ns/op
 BenchmarkAesDecrypt-8   	 1000000	      1175 ns/op
 BenchmarkRsaEncrypt-8   	   20000	     96785 ns/op
